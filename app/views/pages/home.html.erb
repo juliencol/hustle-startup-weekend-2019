@@ -15,8 +15,8 @@
       <li class="nav-item dropdown">
         <%= image_tag "https://www.biography.com/.image/t_share/MTY2MzU3Nzk2OTM2MjMwNTkx/elon_musk_royal_society.jpg", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-          <%= link_to "Equipes", "#", class: "dropdown-item" %>
-          <%= link_to "Staff", "#", class: "dropdown-item" %>
+        	<a href="https://docs.google.com/spreadsheets/d/1ECkg-8jXZCQTv9jqSBtt9bUnPGJ6m1XWZuwYi7ObI5k/edit#gid=0" target="_blank" class="dropdown-item">Teams</a>
+        	<a href="https://hustleisep.fr/" target="_blank" class="dropdown-item">Staff</a>
         </div>
       </li>
     </ul>
@@ -29,17 +29,17 @@
 <div class="container d-flex mt-5 text-center mb-5">
 	<div class="container mt-5 d-flex flex-column">
 		<h2>Saterday 11/23</h2>
-		<p>10h00 - 11h00 : <%= link_to "Find a product" %></p>
-		<p>11h00 - 13h00 : <%= link_to "Brand your product" %></p>
-		<p>14h00 - 15h30 : <%= link_to "Sell your product" %></p>
-		<p>15h30 - 17h00 : <%= link_to "Test your product" %></p>
-		<p>17h00 - 18h00 : <%= link_to "Office hours" %></p>
+		<p>10h00 - 11h00 : <%= link_to "Find a product", find_path %></p>
+		<p>11h00 - 13h00 : <%= link_to "Brand your product", brand_path %></p>
+		<p>14h00 - 15h30 : <%= link_to "Sell your product", sell_path %></p>
+		<p>15h30 - 17h00 : <%= link_to "Test your product", test_path %></p>
+		<p>17h00 - 18h00 : <%= link_to "Office hours", officehours_path %></p>
 	</div>
 	<div class="container mt-5 d-flex flex-column">
 		<h2>Sunday 11/24</h2>
-		<p>9h00 - 10h00 : <%= link_to "Feedback loops" %></p>
-		<p>10h00 - 14h00 : <%= link_to "Prototype design" %></p>
-		<p>15h00 - 16h00 : <%= link_to "Pitch time" %></p>
+		<p>9h00 - 10h00 : <%= link_to "Feedback loops", feedback_path %></p>
+		<p>10h00 - 14h00 : <%= link_to "Prototype design", prototype_path %></p>
+		<p>15h00 - 16h00 : <%= link_to "Pitch time", pitch_path %></p>
 		<p>16h00 - 16h30 : Jury decision</p>
 		<p>16h30 - 17h00 : Winner revelation</p>
 	</div>
@@ -47,6 +47,12 @@
 
 <div class="container text-center mt-3 mb-5">
 	<a href="https://www.messenger.com/t/ben.dut.754" target="_blank" class="btn btn-staff">Call Staff</a>
+</div>
+
+<div class="container text-center mt-5 mb-5 funny-message">
+	<p>"Unless you're at a Hustle startup weekend, you are not moving fast enough." <em>Mark Zuckerberg</em></p>
+	<p>"I’ve missed more than 9,000 shots in my career, but I never missed a Hustle startup weekend." <em>Michael Jordan</em></p>
+	<p>"The only way to be truly satisfied is to build a product at a Hustle startup weekend." <em>Steve Jobs</em></p>
 </div>
 
 
@@ -59,6 +65,7 @@
     	<a href="https://www.instagram.com/hustleisep/" target="_blank"><i class="fab fa-instagram"></i></a>
     	<a href="https://www.facebook.com/hustleisep/" target="_blank"><i class="fab fa-facebook"></i></a>
     	<a href="https://twitter.com/hustleisep" target="_blank"><i class="fab fa-twitter"></i></a>
+    	<a href="https://github.com/juliencol/hustle-startup-weekend-2019" target="_blank"><i class="fab fa-github"></i></a>
   	</div>
 </div>
 
